@@ -1,0 +1,26 @@
+{
+    "name":"RE app",
+    "short_name":"foofapp",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color":"#FFE9D2",
+    "display":"standalone",
+    "theme_color":"#FFE9D2",
+    "orientation":"portrait-primary",
+    "icons":[
+            {
+                "src":"captain.png",
+                "type":"image/png",
+                "sizes":"144x144"
+
+
+            },
+            {
+                "src":"captain.png",
+                "type":"image/png",
+                "sizes":"144x144",
+                "purpose":"maskable"
+            }
+    ]
+
+}

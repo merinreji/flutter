@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid red;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: gray;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:skyblue;padding:15px;">
+  <h1>Dodge Challenger</h1>
+  <h3>“If you ain't first, you're last.”</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Challenger</div>
+    <div class="menuitem">Charger</div>
+    <div class="menuitem">Durango</div>
+  </div>
+
+  <div class="main">
+    <h2>Dodge Challenger</h2>
+    <p>The Dodge Challenger is the name of three different generations of automobiles (two of those being pony cars) produced by American automobile manufacturer Dodge. However, the first use of the Challenger name by Dodge was in 1959 for marketing a "value version" of the full-sized Coronet Silver Challenger.</p>
+    <img src="dodge.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>Why Dodge Challenger?</h2>
+    <p>Introduced in fall 1969 for the 1970 model year,[5] the Challenger was one of two Chrysler E-body cars, the other being the slightly smaller Plymouth Barracuda. Positioned to compete against the Mercury Cougar and Pontiac Firebird in the upper end of the pony car market segment,[6] it was "a rather late response" to the Ford Mustang, which debuted in April 1964.[7] Even so, Chrysler intended the new Challenger as the most potent pony car ever,[8] and like the less expensive Barracuda, it was available in a staggering number of trim and option levels, and with virtually every engine in Chrysler's inventory.[9]
+
+        The first usage of the "challenger" name was for a trim package in 1959 called the Dodge Silver Challenger which was a two-door coupe only.</p>
+    <h2>Why Dodge Challenger is so popular ??</h2>
+    <p>The Challenger's longer wheelbase, larger dimensions, and more luxurious interior were prompted by the launch of the 1967 Mercury Cougar, likewise, a bigger, more luxurious, and more expensive pony car aimed at affluent young American buyers.[10] The 110 in (2,800 mm) wheelbase was 2 in (51 mm) longer than the Barracuda's, and the Dodge differed substantially in its sheetmetal, much as the Cougar differed from the shorter-wheelbase Mustang. Air conditioning and a rear window defogger were optional.</p>
+    <h2>Price?</h2>
+    <p>$83,650</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Asim Dakhway</div>
+<script src ="app.js"></script>
+
+</body>
+</html>
+
